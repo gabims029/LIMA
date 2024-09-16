@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:chocolate;
+    color:rgb(0, 0, 0);
+    /*Garante que o body ocupe toda a altura da tela*/
+    min-height: 100vh;
+}
+
+header{
+    background-color:burlywood;
+    padding: 20px;
+    color:brown;
+    text-align: center;
+}
+
+.logo{
+    /*uso do flebox para alinhar a logo e o titulo*/
+    display: flex;
+    /*Alinha verticalmete os itens da viv em questão*/
+    align-items: center;
+    /*Centraliza os itens horizontalmente*/
+    justify-content: center;
+
+    background-color:cadetblue;
+}
+
+img{
+    max-width: 75px;
+    margin-right: 10px;
+}

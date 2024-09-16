@@ -1,0 +1,23 @@
+/*Seletor Universal*/
+*{
+    background-color: chocolate;
+    color:azure;
+}
+
+/*Estilização por nome de tag*/
+h1{
+    background-color:cornflowerblue;
+    color:cornsilk;
+}
+
+/*Estilização por seletor de classe*/
+.titulo{
+    background-color:chartreuse;
+    color:black;
+}
+
+/*Estilização por seletor de id*/
+#destaque{
+    background-color: cadetblue;
+    color:burlywood
+}
