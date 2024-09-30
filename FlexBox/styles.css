@@ -1,0 +1,24 @@
+.container{
+    display: flex; 
+    flex-direction: row;/* Alinhaos itens na horizontal*/
+    flex-wrap: wrap;/* Permite quebra de linha*/
+    justify-content: space-between;/*Distribui os itens com espaçamento igual entre eles*/
+    align-items: center;/*Alinha itens ao centro do eixo trransversal*/
+    height:100%;
+    border:2px solid #000;
+}
+.item{
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+header,footer{
+    background-color:lemonchiffon;
+    color:darkkhaki;
+    text-align: center;
+    padding: 10px;
+
+}
